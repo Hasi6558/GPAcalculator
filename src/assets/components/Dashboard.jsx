@@ -1,3 +1,6 @@
+// Copyright (c) 2024 Hasindu Liyanage
+// All rights reserved.
+
 import React, { useEffect, useState } from 'react'
 import PlusIcon from '../images/dashicons_plus-alt.png'
 import { useNavigate } from 'react-router-dom';
@@ -153,8 +156,9 @@ const Dashboard = () => {
         </div>
       )}
      <div className='fixed bottom-2 right-6 opacity-40'>
-          Developed by Hasindu Liyanage
+          © 2024 Hasindu Liyanage. All rights reserved.
       </div>
+      
       
     </div>  
   )
